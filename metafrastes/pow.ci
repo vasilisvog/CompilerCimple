@@ -1,0 +1,22 @@
+program power
+declare pow,num,result,a,b;
+function powerf(in num,in pow)
+{
+    if(pow<>0){
+        a:=pow-1;
+        b:=powerf(in num,in a);
+        return (num*b);
+    }
+    else{
+        return(1);
+    };
+}
+
+#main#
+{
+pow:=5;
+num:=23;
+
+result:=powerf(in num,in pow);
+print(result);
+}.

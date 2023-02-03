@@ -1,0 +1,11 @@
+program fibonacci 
+	declare x;
+	function fibonaccif(in x)
+	{
+		return (fibonaccif(in x-1)+fibonaccif(in x-2));
+	}
+	# m a i n #
+	{
+		input(x);
+		print(fibonaccif(in x));
+	}.

@@ -1,0 +1,18 @@
+program second
+	declare i,j;
+	{
+		input(i);
+		input(j);
+		while(i<10)
+		{
+			if(i<j or i=j)
+			{
+				i:=i+1;
+			}
+			else
+			{
+				i:=i-1;
+			};
+		};
+	}.
+	
