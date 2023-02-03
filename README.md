@@ -1,2 +1,2 @@
 # CompilerCimple
-Compilers (Translators) course @ use koi
+ for Compilers (Translators) course project @ use koi
